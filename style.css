@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+  background-color: #000; /* Ensure background color is black */
+  color: #fff; /* Default text color */
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 0;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F476484%2Fstock-market-graph.jpg&op=resize&w=700');
+  background-size: cover;
+  background-position: center;
+  color: rgb(235, 242, 243);
+  text-align: center;
+  padding: 100px 0;
+  font-family: "Arial", sans-serif;
+}
+
+.hero-text-box {
+  background-color: rgba(0, 0, 0, 0.7); /* Slightly darker for better readability */
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Card Styles */
+.card {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker background for cards */
+  border: 1px solid #444; /* Subtle border */
+}
+
+.card-title {
+  color: #fff; /* White text for titles */
+}
+
+.card-text {
+  color: #ddd; /* Slightly lighter text for card text */
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #fff; /* Ensure footer links are white */
+}
